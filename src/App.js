@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import './index.css';
+import Header from './components/Header';
+import Features from './components/Features';
+import About from './components/About';
+import Presentation from './components/Presentation';
+import Contract from './components/Contract';
+import Quotes from './components/Quotes';
+import Web from './components/Web';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Presentation/>
+      <About  title="Buy The Crypto " button="Buy Now"/>
+      <Web/>
+      <Features/>
+      <Quotes/>
+      <Contract/>
     </div>
   );
 }
