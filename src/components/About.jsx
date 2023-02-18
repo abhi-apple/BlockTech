@@ -17,7 +17,6 @@ function About() {
         <p>
           {" "}
           Want to Explore More ?<br />
-          {/* <a href="https://codepen.io/grohit/">codepen.io/grohit</a> */}
         </p>
         <h4>
           Blockchain applications go far beyond cryptocurrency and bitcoin. With
@@ -26,7 +25,6 @@ function About() {
           sectors in ways that range from how contracts are enforced to making
           government work more efficiently.
         </h4>
-        {/* <button >{props.button}</button> */}
 
         <div className="button2" style={{
           letterSpacing:"7px"
